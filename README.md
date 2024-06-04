@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# GitHub Finder
+GitHub Finder é um aplicativo web desenvolvido com React e TypeScript que permite pesquisar usuários do GitHub e exibir informações detalhadas sobre eles. Utilizando a API do GitHub, o aplicativo fornece dados como a imagem do usuário, nome, quantidade de seguidores, número de pessoas que o usuário está seguindo e a localização.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Funcionalidades
+- Busca de Usuários: Pesquise por qualquer usuário do GitHub pelo seu nome de usuário.
+- Informações do Perfil: Exibe a imagem de perfil, nome, quantidade de seguidores, quantidade de pessoas que o usuário segue e a localização do usuário.
+- Interface Intuitiva: Design limpo e intuitivo utilizando CSS Modules para estilização.
+# Tecnologias Utilizadas
+- React: Biblioteca JavaScript para a construção de interfaces de usuário.
+- TypeScript: Superset de JavaScript que adiciona tipagem estática ao código.
+- CSS Modules: Técnica de modularização do CSS para manter a estilização escopada e evitar conflitos de nomes.
+ # Uso
+- Digite o nome de usuário do GitHub que deseja pesquisar na barra de busca.
+- Clique no botão de pesquisa para exibir as informações do usuário ou tecle Enter.
+# Contribuição
+Se você deseja contribuir para o projeto, siga os passos abaixo:
 
-Currently, two official plugins are available:
+- Faça um fork do repositório.
+- Crie uma nova branch com a sua feature ou correção de bug: git checkout -b minha-feature.
+- Faça commit das suas alterações: git commit -m 'Minha nova feature'.
+- Envie para o branch principal: git push origin minha-feature.
+- Abra um Pull Request.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Licença
+Este projeto está licenciado sob a Licença MIT
